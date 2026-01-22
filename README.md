@@ -23,7 +23,7 @@ A modern, responsive personal portfolio website built with React, showcasing pro
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bhargavx23/bhargav.git
    cd react-portfolio
    ```
 
