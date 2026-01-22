@@ -39,7 +39,7 @@ A modern, responsive personal portfolio website built with React, showcasing pro
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:5173` (or the port shown in the terminal).
+4. Open your browser and navigate to `(https://bhargavzz.netlify.app/)` (or the port shown in the terminal).
 
 ## Usage
 
