@@ -1,4 +1,5 @@
 import LogoSection from "../Logos/LogoSection";
+import mail from "../Logos/mailimage.png";
 
 const ContactPage = () => {
   return (
@@ -59,7 +60,7 @@ const ContactPage = () => {
             <div>
               <LogoSection />
               <div className="flex gap-5 bg-black p-3  rounded-3xl">
-                <img src="./src/Logos/mailimage.png" alt="mail" />
+                <img src={mail} alt="mail" />
                 <a
                   href="mailto:Bhargavpasupuleti5@gmail.com?subject=Hello%20Bhargav"
                   className="text-white"
