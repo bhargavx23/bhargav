@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Caveat+Brush&display=swap");
+
+body {
+  font-family: "Poppins", monospace, sans-serif;
+}
+
+.fadeAnimation {
+  animation: fade 0.8s ease-in;
+}
+.SlideDownXtoY {
+  animation: SlideDownX_Y 2.5s ease-in-out;
+}
+.SlideDownYtoX {
+  animation: SlideDownY_X 2s ease-in-out;
+}
+.BackFont {
+  animation: SlideDown 2s ease-in-out;
+}
+.BackFont2 {
+  animation: SlideLF 2s ease-in-out;
+}
+
+/* Animations */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes SlideDownY_X {
+  0% {
+    transform: translateY(100%);
+    /* opacity: 0; */
+  }
+  25% {
+    transform: translateY(0);
+    /* opacity: 0.25; */
+  }
+  50% {
+    transform: translateY(0);
+    /* opacity: 0.55; */
+  }
+  75% {
+    transform: translateY(0);
+    /* opacity: 0.75; */
+  }
+
+  100% {
+    transform: translateY(0);
+    /* opacity: 1; */
+  }
+}
+@keyframes SlideDownX_Y {
+  0% {
+    transform: translateY(-100%);
+    /* opacity: 0; */
+  }
+  25% {
+    transform: translateY(0);
+    /* opacity: 0.25; */
+  }
+  50% {
+    transform: translateY(0);
+    /* opacity: 0.55; */
+  }
+  75% {
+    transform: translateY(0);
+    /* opacity: 0.75; */
+  }
+
+  100% {
+    transform: translateY(0);
+    /* opacity: 1; */
+  }
+}
+
+@keyframes SlideLF {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
