@@ -16,7 +16,7 @@ A modern, responsive personal portfolio website built with React, showcasing pro
 - **React**: Frontend framework for building user interfaces
 - **Vite**: Fast build tool and development server
 - **Tailwind CSS**: Utility-first CSS framework for styling
-- **React Router DOM**: Client-side routing for navigation
+- **React Router DOM**: Client-side routing for navigation/
 
 ## Installation
 

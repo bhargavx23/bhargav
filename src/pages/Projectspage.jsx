@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ProjectsComponent from "./ProjectsComponent";
+import innovaiImage from "../ProjectImages/INNOVAI.png";
+import qrGeneratorImage from "../ProjectImages/QrGenerator.png";
+import jobVerseImage from "../ProjectImages/jobVerse.png";
 
 const Projectspage = () => {
   setTimeout(() => {
@@ -16,16 +19,16 @@ const Projectspage = () => {
       id: 1,
       title: "INNOV.Ai",
       description:
-       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "src/ProjectImages/INNOVAI.png",
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      imageUrl: innovaiImage,
       projectUrl: "https://bhargavx23.github.io/INNOV.AI/",
     },
     {
       id: 2,
       title: "Qr Generator",
       description:
-       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "src/ProjectImages/QrGenerator.png",
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      imageUrl: qrGeneratorImage,
       projectUrl: "https://bhargavx23.github.io/qr/",
     },
     {
@@ -33,13 +36,11 @@ const Projectspage = () => {
       title: "Job Portal",
       description:
         "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "src/ProjectImages/jobVerse.png",
+      imageUrl: jobVerseImage,
       projectUrl: "https://jobversez.netlify.app/",
     },
   ];
-  return (
-    <ProjectsComponent projects={projects}/>
-  );
+  return <ProjectsComponent projects={projects} />;
 };
 
 export default Projectspage;

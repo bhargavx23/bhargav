@@ -1,0 +1,5 @@
+- [x] Update src/Logos/LogoSection.jsx: Import SVG assets and use imported variables in img src
+- [x] Update src/pages/Projectspage.jsx: Import PNG assets and use imported URLs in projects array
+- [x] Run npm run build to verify assets are included
+- [x] Run npm run preview to test locally
+- [ ] Redeploy to Netlify
