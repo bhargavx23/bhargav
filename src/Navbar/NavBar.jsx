@@ -62,7 +62,7 @@ const NavBar = () => {
       </div>
       {isOpen && (
         <div
-          className={`md:hidden absolute fadeAnimation z-20 px-6 rounded-2xl  right-1   bg-[rgb(14,9,17)] text-white font-poppins border-2 border-purple-400 transition-transform duration-300 ease-in-out transform ${isOpen ? "translate-x-0" : "-translate-x-full "} overflow-hidden`}
+          className={`md:hidden absolute fadeAnimation  z-20 px-6 rounded-2xl  right-1   bg-[rgb(14,9,17)] text-white font-poppins border-2 border-purple-400 transition-transform  ease-in-out transform ${isOpen ? "translate-x-0" : "-translate-x-full "} overflow-hidden`}
         >
           <div className="flex flex-col  space-y-2  justify-center items-center m-2 p-4">
             <Link

@@ -7,7 +7,7 @@ const ProjectsComponent = ({ projects }) => {
           return (
             <div
               key={idx}
-              className=" md:h-fit  md:w-fit max-w-[500px] min-h-[500px]   md: flex flex-col bg-[rgba(106,3,165,0.94)] rounded-2xl gap-10 m-4 p-4"
+              className=" md:h-fit  md:max-w-fit max-w-[500px] min-h-[500px]   md: flex flex-col bg-[rgba(106,3,165,0.94)] rounded-2xl gap-10 m-4 p-4"
             >
               <h1 className="text-2xl text-white font-medium ">{e.title}</h1>
               <p className="text-xl font-mono text-white bg-purple-500 p-4 rounded-2xl">
@@ -27,7 +27,7 @@ const ProjectsComponent = ({ projects }) => {
           );
         })}
 
-        <div className=" hidden BackText md:absolute md:h-full  md:w-full   md:bg-[rgb(14,9,17)] md:flex md:justify-center md:items-center  md:z-300 md:font-bold ">
+        <div className=" hidden BackText md:absolute md:h-full  md:min-w-full   md:bg-[rgb(14,9,17)] md:flex md:justify-center md:items-center  md:z-300 md:font-bold ">
           <h1 className=" fadeAnimation text-6xl md:text-[250px]  text-[rgba(71,36,92,0.74)]">
             PROJECTS
           </h1>
