@@ -34,7 +34,7 @@ const Projectspage = () => {
       id: 3,
       title: "Job Portal",
       description:
-        " JobVerse is a modern job search platform that helps users find dream careers with ease. Its clean landing page features the headline Find Your Dream Job and highlights AI-powered smart search, connections to top companies/startups, one-click fast applications with tracking, enterprise-grade security, community support, and real-time notifications",
+        " A full-stack web application for a job portal, built with the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to register, login, browse job listings, apply for jobs, and administrators to manage jobs, users, and applications.",
       imageUrl: jobVerseImage,
       projectUrl: "https://jobversez.netlify.app/",
     },
