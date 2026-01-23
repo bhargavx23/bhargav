@@ -18,7 +18,7 @@ body {
   animation: SlideDown 2s ease-in-out;
 }
 .BackFont2 {
-  animation: SlideLF 2s ease-in-out;
+  animation: SlideLF 1.6s ease-in-out;
 }
 
 /* Animations */
@@ -80,7 +80,7 @@ body {
 
 @keyframes SlideLF {
   from {
-    transform: translateX(-100%);
+    transform: translateX(-100px);
   }
   to {
     transform: translateX(0);
