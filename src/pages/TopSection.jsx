@@ -11,7 +11,7 @@ const TopSection = () => {
       <br />
       <p className=" fadeAnimation text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
         i'm{" "}
-        <span className=" font-Caveat Brush  text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-[rgb(171,71,202)]">
+        <span className=" font-poppins font-bold   text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-[rgb(171,71,202)]">
           Bhargav
         </span>
       </p>

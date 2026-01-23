@@ -5,12 +5,12 @@ const ContactPage = () => {
   return (
     <div className="flex  h-screen md:max-h-[89vh]">
       <div className="  bg-[rgb(14,9,17)] md:max-h-full w-full min-h-screen flex flex-col md:flex-row md:justify-center gap-10 items-center  p-6">
-        <p className=" md:absolute top-40 left-55 SlideDownYtoX z-1 text-7xl font-bold font-mono  md:text-purple-500 text-[rgb(120,23,176)] font-poppins mb-4">
+        <p className=" md:absolute top-40 left-55 SlideDownYtoX z-1 text-7xl    md:text-purple-500 text-[rgb(120,23,176)] font-mono font-bold mb-4">
           Let's Connect
         </p>
 
         <div className=" SlideDownYtoX z-5 relative bg-[rgb(120,23,176)] md:bg-purple-600 h-[500px] md:h-[600px] md:w-1/2 space-y-4 flex flex-col justify-center items-center  w-full p-4 rounded-2xl">
-          <h1 className="absolute left-4 top-5 text-2xl  md:text-2xl font-bold bg-purple-400 p-4 rounded-3xl">
+          <h1 className="absolute left-4 top-5 text-2xl  md:text-2xl font-mono bg-purple-400 p-4 rounded-3xl">
             Bhargav
           </h1>
 
