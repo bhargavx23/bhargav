@@ -8,7 +8,6 @@ import jobVerseImage from "../ProjectImages/jobVerse.png";
 const Projectspage = () => {
   setTimeout(() => {
     const backtext = document.querySelector(".BackText ");
-
     backtext.style.transition = "all .6s ease-in-out";
     backtext.style.opacity = "0";
     backtext.style.zIndex = "-1";

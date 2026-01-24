@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const ProjectsComponent = ({ projects }) => {
   return (
     <div>
-      <div className=" mainbg md: z-1 md:relative flex flex-col  items-center  w-full  py-10 min-h-screen md:min-h-[90vh]   justify-center p-4 bg-[rgb(14,9,17)] md:bg-[rgb(14,9,17)] gap-2 md:grid  md:m-0 md:gap-0 md:place-items-center md:grid-cols-3   md:flex-wrap md:justify-center ">
+      <div className=" mainbg md: z-1 md:relative flex flex-col  items-center  w-full  py-10 min-h-screen md:min-h-[85vh]   justify-center p-4 bg-[rgb(14,9,17)] md:bg-[rgb(14,9,17)] gap-2 md:grid  md:m-0 md:gap-0 md:place-items-center md:grid-cols-3   md:flex-wrap md:justify-center ">
         {projects.map((e, idx) => {
           return (
             <div
@@ -27,8 +27,8 @@ const ProjectsComponent = ({ projects }) => {
           );
         })}
 
-        <div className=" hidden BackText md:absolute md:h-full  md:min-w-full   md:bg-[rgb(14,9,17)] md:flex md:justify-center md:items-center  md:z-300 md:font-bold ">
-          <h1 className=" fadeAnimation text-6xl md:text-[250px]  text-[rgba(71,36,92,0.74)]">
+        <div className=" hidden BackText md:absolute md:min-h-full  md:min-w-full   md:bg-[rgb(14,9,17)] md:flex md:justify-center md:items-center  md:z-300 md:font-bold ">
+          <h1 className=" border-2 md:absolute md:top-30 fadeAnimation text-6xl md:text-[250px] bg-purple-500 p-4 rounded-3xltext-[rgba(0,0,0,0.74)]">
             PROJECTS
           </h1>
         </div>

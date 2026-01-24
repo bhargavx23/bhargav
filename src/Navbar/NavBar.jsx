@@ -7,32 +7,32 @@ const NavBar = () => {
   return (
     <div>
       <div className="flex justify-between items-center w-full md:w-full bg-[rgb(14,9,17)] p-4 md:p-6 text-white font-poppins">
-        <div className="fadeAnimation">
+        <div className="fadeAnimation ">
           <h1 className="font-semibold text-3xl md:text-4xl lg:text-6xl text-purple-300">
             Portfolio
           </h1>
         </div>
         <div className="hidden md:flex fadeAnimation ml-4 space-x-4 text-xl font-semibold">
           <Link
-            className="hover:bg-purple-400 hover:text-white p-2 rounded transition-all ease-in duration-400"
+            className="hover:bg-purple-400 hover:text-white p-2 focus:bg-purple-400 active:scale-90 rounded transition-all ease-in duration-400"
             to="/"
           >
             Home
           </Link>
           <Link
-            className="hover:bg-purple-400 hover:text-white p-2 rounded transition-all ease-in duration-400"
+            className="hover:bg-purple-400 hover:text-white p-2 focus:bg-purple-400 rounded active:scale-90 transition-all ease-in duration-400"
             to="/about"
           >
             About
           </Link>
           <Link
-            className="hover:bg-purple-400 hover:text-white p-2 rounded transition-all ease-in duration-400"
+            className="hover:bg-purple-400 hover:text-white p-2 focus:bg-purple-400 rounded active:scale-90 transition-all ease-in duration-400"
             to="/projects"
           >
             Projects
           </Link>
           <Link
-            className="hover:bg-purple-400 hover:text-white p-2 rounded transition-all ease-in duration-400"
+            className="hover:bg-purple-400 hover:text-white p-2 focus:bg-purple-400 rounded active:scale-90 transition-all ease-in duration-400"
             to="/contact"
           >
             Contact

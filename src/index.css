@@ -4,6 +4,11 @@
 body {
   font-family: "poppins", sans-serif;
 }
+@font-face {
+  font-family: "poppins", sans-serif;
+
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Caveat+Brush&display=swap");
+}
 
 .fadeAnimation {
   animation: fade 0.8s ease-in;

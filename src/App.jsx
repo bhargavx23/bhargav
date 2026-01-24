@@ -6,7 +6,7 @@ import Projectspage from "./pages/Projectspage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 const App = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
