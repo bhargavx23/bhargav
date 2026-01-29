@@ -1,13 +1,8 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Caveat+Brush&display=swap");
-
-body {
+body,
+html {
   font-family: "poppins", sans-serif;
-}
-@font-face {
-  font-family: "poppins", sans-serif;
-
-  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Caveat+Brush&display=swap");
 }
 
 .fadeAnimation {
@@ -89,5 +84,11 @@ body {
   }
   to {
     transform: translateX(0);
+  }
+}
+@media screen and (max-width: 668px) {
+  body,
+  html {
+    font-family: "Poppins", sans-serif;
   }
 }

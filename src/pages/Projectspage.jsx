@@ -4,6 +4,7 @@ import ProjectsComponent from "./ProjectsComponent";
 import innovaiImage from "../ProjectImages/INNOVAI.png";
 import qrGeneratorImage from "../ProjectImages/QrGenerator.png";
 import jobVerseImage from "../ProjectImages/jobVerse.png";
+import notebookImage from "../ProjectImages/ReactNotesApp_SS.png";
 
 const Projectspage = () => {
   setTimeout(() => {
@@ -35,7 +36,15 @@ const Projectspage = () => {
       description:
         " A full-stack web application for a job portal, built with the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to register, login, browse job listings, apply for jobs, and administrators to manage jobs, users, and applications.",
       imageUrl: jobVerseImage,
-      projectUrl: "https://jobversez.netlify.app/",
+      projectUrl: "https://jobversee.netlify.app/",
+    },
+    {
+      id: 4,
+      title: "Notebook App",
+      description:
+        "A simple and intuitive notebook application built with React that allows users to create, edit, and organize notes efficiently.",
+      imageUrl: notebookImage,
+      projectUrl: "https://rNotesApp.netlify.app",
     },
   ];
   return <ProjectsComponent projects={projects} />;

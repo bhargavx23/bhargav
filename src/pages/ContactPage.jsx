@@ -38,8 +38,8 @@ const ContactPage = () => {
               required
               name="Email"
             />
-            <textarea
-              className=" md:hover:scale-105 transition-all transform duration-300 ease-in-out border-2 border-white/60 w-full p-4 rounded-xl md:w-3/4 md:p-6 placeholder:text-black outline-none"
+            <textarea 
+              className=" resize-none md:hover:scale-105 transition-all transform duration-300 ease-in-out border-2 border-white/60 w-full p-4 rounded-xl md:w-3/4 md:p-6 placeholder:text-black outline-none"
               type="text"
               placeholder="Message / Suggestions"
               required

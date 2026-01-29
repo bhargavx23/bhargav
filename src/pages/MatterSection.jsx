@@ -18,7 +18,7 @@ const MatterSection = () => {
           <a href={Resume} download>
             <button
               type="submit"
-              className="bg-white text-black text-xl fadeAnimation rounded-xl p-3   font-medium hover:bg-purple-300 active:scale-95  hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
+              className="bg-white text-black text-xl fadeAnimation rounded-xl md:p-3 p-2   font-medium hover:bg-purple-300 active:scale-95  hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
             >
               Resume
             </button>

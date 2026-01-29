@@ -1,4 +1,4 @@
-import React from "react";
+
 import gitLogo from "./Git.svg";
 import instagramLogo from "./instagaram.svg";
 import linkedinLogo from "./linkedin.svg";

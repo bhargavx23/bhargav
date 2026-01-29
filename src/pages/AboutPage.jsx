@@ -28,7 +28,7 @@ const AboutPage = () => {
     },
     {
       icons: tailwindcssicon,
-      name: "Tailwind CSS",
+      name: "Tailwind",
     },
     {
       icons: html,
@@ -77,28 +77,27 @@ const AboutPage = () => {
           ABOUT
         </h1>
       </div>
-      <div className="h-[400px] relative border-2  md:flex md:h-[90%] flex  bg-[rgb(121,53,181)] p-2 BaxkFont2  rounded-2xl md:items-end md:w-1/3 items-start justify-center w-full ">
-        <div className="w-full grid grid-cols-3 place-items-center md:grid-cols-3 md:w-full h-full bg-purple-900  md:h-3/4 z-10 rounded-2xl">
+      <div className="h-[600px] relative border-2  md:flex md:h-[90%] flex  bg-[rgb(121,53,181)] p-2 BaxkFont2  rounded-2xl md:items-end md:w-1/3 items-center justify-center w-full ">
+        <div className="w-full grid grid-cols-3 place-items-center md:grid-cols-3 md:w-full h-[500px] bg-purple-900  md:h-3/4 z-10 rounded-2xl">
           {Skillicons.map((e, idx) => {
             return (
               <div
                 key={idx}
-                className="flex flex-col items-center bg-purple-700 overflow-hidden hover:scale-105 transition-all duration-300 py-3 px-5 rounded-3xl"
+                className="flex flex-col items-center bg-purple-700 overflow-hidden hover:scale-105 transition-all duration-300 md:py-3 md:px-5 p-3 rounded-3xl"
               >
                 <img
                   src={e.icons}
-                  className="h-[60px] SlideDownYtoX"
+                  className="md:h-[60px] h-[50px] SlideDownYtoX"
                   alt={e.name}
                 />
-                <p className="text-white SlideDownYtoX">{e.name}</p>
+                <p className="text-white SlideDownYtoX ">{e.name}</p>
               </div>
             );
           })}
         </div>
-        <h1 className="   absolute  md:flex md:absolute -top-40  text-8xl md:top-10 md:text-black/50 md:text-[100px]  font-bold SlideDownYtoX z-1 text-[rgba(124,51,167,0.55)] ">
+        <h1 className="   absolute  md:flex md:absolute -top-30  text-8xl md:top-10 md:text-black/50 md:text-[100px]  font-bold SlideDownYtoX z-1 text-[rgba(124,51,167,0.55)] ">
           SKILLS
         </h1>
-        <div></div>
       </div>
     </div>
   );
