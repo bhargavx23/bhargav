@@ -15,7 +15,7 @@ const ProjectsComponent = ({ projects }) => {
               </p>
               <div className="w-full  border-4 rounded-xl overflow-hidden border-purple-100 ">
                 <img
-                  className="rounded-xl  hover:scale-125 bg-center w-full  scale-100  transition-all ease-in-out duration-300"
+                  className="  hover:scale-125 bg-center w-full  scale-100  transition-all ease-in-out duration-300"
                   src={e.imageUrl}
                   alt={e.title}
                 />
