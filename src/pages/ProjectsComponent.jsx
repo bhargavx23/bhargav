@@ -7,15 +7,15 @@ const ProjectsComponent = ({ projects }) => {
           return (
             <div
               key={idx}
-              className=" md:h-fit  md:max-w-fit max-w-[500px] min-h-[500px]   md: flex flex-col bg-[rgba(106,3,165,0.94)] rounded-2xl gap-10 m-4 p-4 SlideDownYtoX"
+              className=" md:h-fit  md:max-w-fit max-w-[480px] min-h-[500px]   md: flex flex-col bg-[rgba(106,3,165,0.94)] rounded-2xl gap-10 m-4 p-4 SlideDownYtoX"
             >
               <h1 className="text-2xl text-white font-medium ">{e.title}</h1>
               <p className="text-xl font-mono  text-white bg-purple-500 p-4 rounded-2xl">
                 {e.description}
               </p>
-              <div className="w-full  border-4 rounded-xl overflow-hidden border-purple-100 ">
+              <div className="w-fit h-fit border-4 rounded-2xl overflow-hidden border-purple-100">
                 <img
-                  className="rounded-xl  hover:scale-125 bg-center w-full  scale-100  transition-all ease-in-out duration-300"
+                  className="  hover:scale-125 bg-center w-full  scale-100  transition-all ease-in-out duration-300"
                   src={e.imageUrl}
                   alt={e.title}
                 />
