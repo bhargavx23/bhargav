@@ -5,11 +5,11 @@ const ContactPage = () => {
   return (
     <div className="flex  min-h-screen md:max-h-[89vh]">
       <div className="  bg-[rgb(14,9,17)] md:max-h-full w-full  flex flex-col md:flex-row md:justify-center gap-10 items-center  p-6">
-        <p className=" md:absolute top-40 left-55 SlideDownYtoX z-1 text-7xl    md:text-purple-500 text-[rgb(120,23,176)] font-mono font-bold mb-4 md:top-30 md:left-40 lg:left-50">
+        <p className=" md:absolute top-40 left-55 SlideDownYtoX z-1 text-7xl    md:text-purple-500 text-[rgb(120,23,176)] font-mono font-bold mb-4 md:top-20 md:right-10">
           Let's Connect
         </p>
 
-        <div className=" SlideDownYtoX z-5 relative bg-[rgb(120,23,176)] md:bg-purple-700 min-h-[500px] md:min-h-[500px]  md:w-[45%] space-y-4 flex flex-col justify-center items-center  w-full p-4 rounded-2xl">
+        <div className=" SlideDownYtoX z-5 relative bg-[rgb(120,23,176)] md:bg-purple-700 min-h-[500px] md:min-h-[450px]  md:w-[45%] space-y-4 flex flex-col justify-center items-center  w-full p-4 rounded-2xl">
           <h1 className="absolute md:hidden left-4 top-5 text-2xl  md:text-2xl font-mono bg-purple-400 p-4 rounded-3xl">
             Bhargav
           </h1>
@@ -38,7 +38,7 @@ const ContactPage = () => {
               required
               name="Email"
             />
-            <textarea 
+            <textarea
               className=" resize-none md:hover:scale-105 transition-all transform duration-300 ease-in-out border-2 border-white/60 w-full p-4 rounded-xl md:w-3/4 md:p-6 placeholder:text-black outline-none"
               type="text"
               placeholder="Message / Suggestions"
@@ -48,7 +48,7 @@ const ContactPage = () => {
             <button
               required
               type="submit"
-              className="bg-white px-8 py-4 md:bg-purple-00 md:px-8 md:py-4 rounded-3xl md:text-3xl font-bold active:scale-90 transition-all duration-300 "
+              className="bg-white px-8 py-4 md:bg-purple-00 md:px-8 md:py-4 rounded-3xl md:text-2xl font-bold active:scale-90 transition-all duration-300 "
             >
               Submit
             </button>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const ProjectsComponent = ({ projects }) => {
   return (
     <div>
-      <div className=" mainbg md: z-1 md:relative flex flex-col  items-center  w-full  py-10 min-h-screen md:min-h-[85vh]   justify-center p-4 bg-[rgb(14,9,17)] md:bg-[rgb(14,9,17)] gap-2 md:grid  md:m-0 md:gap-0 md:place-items-center md:grid-cols-3   md:flex-wrap md:justify-center  ">
+      <div className=" mainbg md: z-1 md:relative flex flex-col  items-center  w-full  md:py-10 min-h-screen md:min-h-[85vh]   justify-center p-1 bg-[rgb(14,9,17)] md:bg-[rgb(14,9,17)] gap-2 md:grid  md:m-0 md:gap-0 md:place-items-center md:grid-cols-3   md:flex-wrap md:justify-center  ">
         {projects.map((e, idx) => {
           return (
             <div

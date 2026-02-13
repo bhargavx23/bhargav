@@ -4,7 +4,7 @@ import MatterSection from "./MatterSection.jsx";
 const Home = () => {
   return (
     <div>
-      <div className="  realtive bg-[rgb(14,9,17)] md:bg-[rgba(14,9,17,0.55)] items-center z-20  m-0 h-screen md:max-h-[90vh]  w-full flex justify-center flex-col font-[poppins] text-white text-4xl ">
+      <div className="  realtive bg-[rgb(14,9,17)] md:bg-[rgba(14,9,17,0.55)] items-center z-20  m-0  min-h-[95vh] md:max-h-[90vh]  w-full flex justify-center flex-col font-[poppins] text-white text-4xl ">
         <TopSection />
         <MatterSection />
         <div className=" md:absolute  hidden  md:h-full md:w-full   md:bg-[rgb(14,9,17)] md:flex md:justify-center md:items-center   md:overflow-y-hidden md:-z-10 md:font-bold ">

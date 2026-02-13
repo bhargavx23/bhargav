@@ -8,7 +8,7 @@ const NavBar = () => {
     <div>
       <div className="flex justify-between items-center w-full md:w-full bg-[rgb(14,9,17)] p-4 md:p-6 text-white font-poppins">
         <div className="fadeAnimation ">
-          <h1 className="font-semibold text-3xl md:text-4xl lg:text-6xl text-purple-300">
+          <h1 className="font-semibold text-3xl md:text-4xl lg:text-4xl text-purple-300">
             Portfolio
           </h1>
         </div>

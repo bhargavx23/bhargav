@@ -48,7 +48,7 @@ const AboutPage = () => {
     },
   ];
   return (
-    <div className="md:flex-row md:flex items-center flex-col flex md:p-2 md:justify-between p-3  md:items-center w-full md:w-full  h-fit  md:h-[89vh] bg-[rgb(13,6,19)] ">
+    <div className="md:flex sm:grid-cols-1    md:place-items-center grid-cols-1  md:p-2  p-3  md:items-center w-full   h-fit  md:h-[89vh] bg-[rgb(13,6,19)] ">
       <div className=" relative md:relative  bg-[hsl(272,52%,5%)]  h-screen md:h-full md:flex md:justify-center items-center  w-full md:w-3/4 flex  flex-col font-poppins text-white text-xl  ">
         <div className="  min-h-full  md:h-full  flex items-center justify-center">
           <div className="md:absolute  md:min-h-fit lg:min-h-fit max-h-[400px] grid grid-cols-1 place-items-center md:flex md:justify-center md:items-center  BackFont2 w-full md:left-10 top-50 md:top-10  md:w-[90%] bg-white/10 rounded-lg backdrop-blur-lg shadow-lg border border-white/20  p-3 ">
@@ -77,8 +77,8 @@ const AboutPage = () => {
           ABOUT
         </h1>
       </div>
-      <div className="h-[600px] relative border-2  md:flex md:h-[90%] flex  bg-[rgb(121,53,181)] p-2 BaxkFont2  rounded-2xl md:items-end md:w-1/3 items-center justify-center w-full ">
-        <div className="w-full grid grid-cols-3 place-items-center md:grid-cols-3 md:w-full h-[500px] bg-purple-900  md:h-3/4 z-10 rounded-2xl">
+      <div className="min-h-[500px] relative border-2  md:flex md:h-[90%] flex  bg-[rgb(121,53,181)] p-2 BaxkFont2  rounded-2xl md:items-end md:w-1/3 items-center justify-center w-full ">
+        <div className="w-full grid grid-cols-3 place-items-center md:grid-cols-3 md:w-full min-h-[400px] bg-purple-900  md:h-3/4 z-10 rounded-2xl">
           {Skillicons.map((e, idx) => {
             return (
               <div

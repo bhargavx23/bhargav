@@ -5,7 +5,7 @@ import linkedinLogo from "./linkedin.svg";
 
 const LogoSection = () => {
   return (
-    <div className=" fadeAnimation w-full h-[10vh]  justify-center md:justify-start items-center flex  px-4 md:px-6 lg:px-10 md:items-center space-x-4 md:space-x-6">
+    <div className=" fadeAnimation w-full h-[10vh]  justify-center md:justify-start items-center flex  px-4 md:px-6 lg:px-10 md:items-center space-x-2 md:space-x-3">
       <a href="https://github.com/bhargavx23">
         <img
           src={gitLogo}
