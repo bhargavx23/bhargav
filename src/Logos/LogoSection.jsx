@@ -13,7 +13,7 @@ const LogoSection = () => {
           className="w-15 h-15 hover:scale-95 ease-in transition-all duration-75"
         />
       </a>
-      <a href=" ">
+      <a href="www.instagram.com/bhargavx_">
         <img
           src={instagramLogo}
           alt="Instagram Logo"
