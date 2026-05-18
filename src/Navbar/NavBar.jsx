@@ -5,14 +5,14 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <div className="flex justify-between items-center w-full md:w-full bg-[rgb(14,9,17)] p-4 md:p-6 text-white font-poppins">
-        <div className="fadeAnimation ">
-          <h1 className="font-semibold text-3xl md:text-4xl lg:text-4xl text-purple-300">
+    <div className="  w-full md:min-w-full md:h-fit md:flex md:justify-center bg-[rgb(14,9,17)]">
+      <div className="flex justify-between SlideDownXtoY items-center w-full md:w-fit md:mt-5 md:bg-[rgb(77,17,112)] p-4 md:px-4 md:py-2 md:rounded-4xl text-white font-poppins">
+        <div className="fadeAnimation flex items-center md:hidden space-x-2 md:space-x-4">
+          <h1 className="font-semibold text-3xl md:text-4xl lg:text-4xl  text-purple-300">
             Portfolio
           </h1>
         </div>
-        <div className="hidden md:flex fadeAnimation ml-4 space-x-4 text-xl font-semibold">
+        <div className="hidden md:flex fadeAnimation ml-4 space-x-2 text-xl font-semibold">
           <Link
             className="hover:bg-purple-400 hover:text-white p-2 focus:bg-purple-400 active:scale-90 rounded transition-all ease-in duration-400"
             to="/"

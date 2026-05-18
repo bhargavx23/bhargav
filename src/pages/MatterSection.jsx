@@ -1,5 +1,5 @@
 import LogoSection from "../Logos/LogoSection";
-import Resume from "../assets/BhargavResume.pdf";
+import Resume from "../assets/BhargavPasupulatiResume.pdf";
 
 const MatterSection = () => {
   return (

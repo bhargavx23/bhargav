@@ -1,11 +1,10 @@
-
 import gitLogo from "./Git.svg";
 import instagramLogo from "./instagaram.svg";
 import linkedinLogo from "./linkedin.svg";
 
 const LogoSection = () => {
   return (
-    <div className=" fadeAnimation w-full h-[10vh]  justify-center md:justify-start items-center flex  px-4 md:px-6 lg:px-10 md:items-center space-x-2 md:space-x-3">
+    <div className=" fadeAnimation w-full h-[10vh] bg-purple-700 m-2 rounded-full justify-center md:justify-start  items-center flex  px-4 md:px-6 lg:px-10 md:items-center space-x-2 md:space-x-3">
       <a href="https://github.com/bhargavx23">
         <img
           src={gitLogo}
@@ -13,13 +12,15 @@ const LogoSection = () => {
           className="w-15 h-15 hover:scale-95 ease-in transition-all duration-75"
         />
       </a>
-      <a href="www.instagram.com/bhargavx_">
+
+      <a href="https://www.instagram.com/bhargavx_">
         <img
           src={instagramLogo}
           alt="Instagram Logo"
           className="w-15 h-15 hover:scale-95 ease-in transition-all duration-75"
         />
       </a>
+
       <a href="https://www.linkedin.com/in/bhargav-pasupulati-6b280b28b/">
         <img
           src={linkedinLogo}
